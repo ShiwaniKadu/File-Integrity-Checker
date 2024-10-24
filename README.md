@@ -1,6 +1,24 @@
-# File-Integrity-Checker
-• Developed a File Integrity Checker script using Python to ensure the security and integrity of files within a specified directory.
-•	The script calculates and displays the checksum (MD5 hash) of each file, allowing users to verify the integrity of their files and identify potential security threats. 
-•	Developed an efficient and automated Periodic Process Logger, enhancing the ability to monitor and analyse running processes.
-•	Enabled users to customize the time intervals for log generation, providing flexibility based on their specific monitoring needs.
-•	Tested of each feature using manual testing methods to ensure the user-friendliness of the features.
+# File Integrity Checker
+
+This Python script calculates and displays the MD5 checksum of all files within a specified directory. It helps verify file integrity by comparing hashes, ensuring no changes have occurred.
+
+## Features
+- Traverse a given directory
+- Display the MD5 hash of each file
+
+## Usage
+```bash
+python script_name.py <Absolute_Path_To_Directory>
+```
+##Options:
+-h: Display help
+-u: Usage guide
+
+Example
+```bash
+python script_name.py C:\Users\user\Documents
+```
+##Requirements
+Python 3.x
+
+Ensure you place the image in the appropriate path for the screenshot!
